@@ -1,0 +1,19 @@
+KHANT NYI THIT — GITHUB PAGES ASSETS FIX
+
+1. Double-click this ZIP to extract it.
+2. Open the extracted folder and find its `assets` folder.
+3. Open https://github.com/khantnyithit1-lang/khant-nyi-portfolio
+4. Code > Add file > Upload files.
+5. Drag the ENTIRE extracted `assets` folder into GitHub's upload area.
+6. Confirm the pending files show paths like:
+     assets/style.css
+     assets/site.js
+     assets/motion-v2.css
+     assets/images/khant-nyi-thit-real-portrait-20261115.jpg
+7. Click Commit changes on `main`.
+8. Wait for GitHub Pages build and hard refresh (Cmd+Shift+R).
+
+Do NOT upload the ZIP itself.
+Do NOT upload just the files inside assets without preserving the assets/ path.
+
+Existing index.html and other HTML pages are already in the repository.
