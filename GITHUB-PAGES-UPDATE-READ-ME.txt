@@ -1,0 +1,35 @@
+KHANT NYI THIT — REAL PHOTO V4 — GITHUB PAGES
+==============================================
+
+This package includes the EXACT photo you provided, without AI generation or retouching:
+  assets/images/khant-nyi-thit-real-portrait-20261115.jpg
+
+The Home and About sections and social-preview image references have been updated.
+The CSS only adjusts the photo framing. Motion V2, design portfolio, gallery,
+demo links, pricing, all pages, and contact UI are otherwise preserved.
+
+DEPLOY ON GITHUB PAGES:
+1. Download ZIP, extract it.
+2. Open the repository that actually hosts your PERSONAL PORTFOLIO (not CRM/POS/LMS/OMS demos).
+3. Commit the updated files from INSIDE the extracted folder. Ensure index.html
+   and assets/ are in the root, unless GitHub Pages publishes /docs.
+   If the repository contains extra old generated portraits, they can stay unused.
+4. Go to Settings > Pages: confirm Build and deployment points to the branch/folder
+   containing the updated index.html.
+5. Wait for GitHub Actions > pages build and deployment to finish.
+6. Visit the live site in an incognito tab. Open the image directly at
+   <your-portfolio-URL>/assets/images/khant-nyi-thit-real-portrait-20261115.jpg
+
+SITE PRIVATE?
+- On GitHub Free, GitHub Pages needs a PUBLIC repository.
+- A private repository cannot be made public by uploading website code.
+- Check Settings > General > Danger Zone > Change repository visibility.
+- CAUTION: making a repository public exposes all its files to others. Verify
+  it contains no secrets, credentials, private data or unrelated private files.
+- If you don't want public source code, consider Netlify/Vercel static hosting.
+
+FORMS:
+Netlify Forms doesn't submit on GitHub Pages without a separate form service.
+Telegram, email, and Facebook contact links remain available.
+
+NOTE: The ZIP is the actual website code, not an automatic GitHub push.

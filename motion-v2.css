@@ -1,0 +1,85 @@
+/* Khant Nyi Thit | Motion V2.0 — visible, elegant motion. Progressive enhancement only.
+   Original layout, artworks, links, Netlify forms and JS behaviors remain unchanged. */
+@keyframes knv2-in-up {
+  from { opacity:0; transform:translate3d(0,34px,0); filter:blur(3px); }
+  to   { opacity:1; transform:translate3d(0,0,0); filter:blur(0); }
+}
+@keyframes knv2-in-right {
+  from { opacity:0; transform:translate3d(50px,15px,0) scale(.955); }
+  to   { opacity:1; transform:translate3d(0,0,0) scale(1); }
+}
+@keyframes knv2-underline {
+  from { transform:scaleX(0); } to { transform:scaleX(1); }
+}
+@keyframes knv2-lightbox-photo {
+  from { opacity:.25; transform:translateY(10px) scale(.975); }
+  to { opacity:1; transform:translateY(0) scale(1); }
+}
+@keyframes knv2-appear {
+  from { opacity:0; transform:translateY(14px); }
+  to { opacity:1; transform:translateY(0); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* More visible opening choreography. Prior version immediately marked the top
+     viewport elements 'visible' and the entrance looked like no animation. */
+  .hero .hero-content > .eyebrow { animation:knv2-in-up .66s cubic-bezier(.2,.75,.2,1) both; }
+  .hero .hero-content > h1 { animation:knv2-in-up .92s cubic-bezier(.18,.8,.23,1) .13s both; }
+  .hero .hero-content > .hero-lede { animation:knv2-in-up .85s cubic-bezier(.18,.8,.23,1) .28s both; }
+  .hero .hero-content > .hero-text { animation:knv2-in-up .85s cubic-bezier(.18,.8,.23,1) .38s both; }
+  .hero .hero-content > .hero-actions { animation:knv2-in-up .82s cubic-bezier(.18,.8,.23,1) .48s both; }
+  .hero .hero-content > .mini-stats { animation:knv2-in-up .82s cubic-bezier(.18,.8,.23,1) .57s both; }
+  .hero .hero-content > .feature-list { animation:knv2-in-up .82s cubic-bezier(.18,.8,.23,1) .68s both; }
+  .hero .portrait-frame { animation:knv2-in-right 1.16s cubic-bezier(.17,.8,.2,1) .22s both; }
+  .page-hero .eyebrow {animation:knv2-in-up .68s ease-out both;}
+  .page-hero h1 {animation:knv2-in-up .87s cubic-bezier(.2,.8,.2,1) .12s both;}
+  .page-hero .section-desc, .page-hero .hero-actions {animation:knv2-in-up .78s ease-out .27s both;}
+
+  /* Section content is only hidden after JS enables an observer. */
+  html.knv2-enabled [data-knv2-reveal]:not(.knv2-shown) {
+    opacity:0;
+    transform:translate3d(0,46px,0);
+    filter:blur(2px);
+  }
+  html.knv2-enabled [data-knv2-reveal] {
+    transition:opacity .85s cubic-bezier(.2,.75,.2,1),
+               transform .85s cubic-bezier(.2,.75,.2,1),
+               filter .7s ease;
+    transition-delay:var(--knv2-delay, 0ms);
+    will-change:opacity,transform;
+  }
+  html.knv2-enabled [data-knv2-reveal].knv2-shown {
+    opacity:1;
+    transform:translate3d(0,0,0);
+    filter:blur(0);
+    will-change:auto;
+  }
+  .project-card,.service-card,.detail-service,.price-card,.work-card,.ad-price,.soft-panel {
+    transition:transform .34s cubic-bezier(.2,.75,.2,1),border-color .28s ease,box-shadow .32s ease;
+  }
+  @media(hover:hover) and (pointer:fine) {
+    .project-card:hover,.service-card:hover,.detail-service:hover,.price-card:hover,.ad-price:hover,
+    .work-card:hover { transform:translateY(-8px); border-color:rgba(255,90,31,.44);
+      box-shadow:0 17px 45px rgba(0,0,0,.28),0 7px 27px rgba(255,90,31,.085); }
+    .work-card:hover .work-visual img { transform:scale(1.055); }
+    .btn-primary:hover { box-shadow:0 12px 30px rgba(255,90,31,.27); }
+  }
+  .work-visual img { transition:transform .55s cubic-bezier(.18,.8,.2,1); }
+  .filter-button { transition:background .25s ease,border-color .25s ease,transform .25s ease; }
+  .filter-button:active,.btn:active { transform:scale(.975); }
+  .lightbox.open { animation:knv2-appear .26s cubic-bezier(.2,.7,.2,1) both; }
+  .lightbox.open .lb-inner {animation:knv2-appear .42s cubic-bezier(.2,.75,.2,1) both;}
+  .lb-visual img.knv2-swapped {animation:knv2-lightbox-photo .33s cubic-bezier(.2,.75,.2,1) both;}
+  .knv2-filter-in { animation:knv2-appear .38s ease-out both; }
+  .knv2-exiting main,.knv2-exiting .footer { opacity:.3; transform:translateY(-10px); transition:opacity .18s ease,transform .18s ease; }
+  .knv2-scroll-progress { position:fixed;top:0;left:0;right:0;height:3px;z-index:200;
+    pointer-events:none;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,#ff5a1f,#ffad78);
+    box-shadow:0 0 12px rgba(255,90,31,.3); }
+}
+.lb-visual { touch-action:pan-y; }
+@media (prefers-reduced-motion: reduce) {
+  *,*::before,*::after { animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important; }
+  html.knv2-enabled [data-knv2-reveal],html.knv2-enabled [data-knv2-reveal]:not(.knv2-shown) {
+    opacity:1!important;transform:none!important;filter:none!important;
+  }
+  .knv2-scroll-progress {display:none!important;}
+}

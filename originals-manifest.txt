@@ -1,0 +1,32 @@
+Khant Nyi Thit Portfolio: original upload to optimized gallery mapping
+
+assets/images/aero-buds.webp <-- 1661dd46-e142-4e4e-b773-7f5c43035bc6(1).png
+assets/images/little-steps.webp <-- 7feb2392-5304-454e-9575-952171fbbb3e(1).png
+assets/images/blush-lip-tint.webp <-- Blush Pink Lip Tint Advertisement(2).png
+assets/images/brightpath-school.webp <-- BrightPath_International_School_Corrected_Burmese(2).png
+assets/images/brightsmile.webp <-- BrightSmile_Original_Exact_Color_Spelling_Fix (1)(1).png
+assets/images/crumb-cafe.webp <-- CRUMB_CO_Bakery_Cafe_Portfolio_Final(1).png
+assets/images/aurora-perfume.webp <-- ChatGPT Image Nov 15, 2026, 12_35_46 PM(1).png
+assets/images/elan-jewelry.webp <-- ELAN_Fine_Jewelry_Khant_Nyi_Thit_Final(1).jpg
+assets/images/forge-fitness.webp <-- Forge Fitness Club_ Train Strong, Live Better(1).png
+assets/images/ember-grill.webp <-- Khant_Nyi_Thit_EMBER_Original_Design_Corrected(2).png
+assets/images/mira-beauty.webp <-- Khant_Nyi_Thit_MIRA_Beauty_Salon_Ad(2).png
+assets/images/sneakers.webp <-- Khant_Nyi_Thit_Sneakers_Portfolio_Ad(2).png
+assets/images/wanderwave.webp <-- Khant_Nyi_Thit_WanderWave_Phuket_Travel_Ad(2).png
+assets/images/luna-shampoo.webp <-- Luna Herbal Shampoo Botanical Freshness Ad(2).png
+assets/images/skyline.webp <-- Luxury Sunset Condominium Poster(1).png
+assets/images/nexora.webp <-- NEXORA_Upper_Two_Lines_Corrected(1).png
+assets/images/nexus-summit.webp <-- NEXUS_Business_Summit_Burmese_Unicode_Corrected(1).png
+assets/images/nova-ai.webp <-- NOVA_AI_Chatbot_Spelling_Corrected(1).png
+assets/images/urban-edge.webp <-- Neon Urban Streetwear Campaign(1).png
+assets/images/nextgen.webp <-- NextGen_Coding_Ad_Corrected_Final(2).png
+assets/images/onyx-auto.webp <-- Onyx Premium Car Care Advertisement(1).png
+assets/images/nadi-care.webp <-- Portfolio_Ad_01_Thanaka_Freelancer(1).png
+assets/images/scoopsy.webp <-- SCOOPSY Creamy Strawberry Spoonful(1).png
+assets/images/social-series.webp <-- Social Media Marketing Poster(1).png
+assets/images/speakup.webp <-- SpeakUp_Ad_Download(2).png
+assets/images/crispo.webp <-- Spicy Crispo Chips Still Life(2).png
+assets/images/swiftpos.webp <-- SwiftPOS_Unicode_Final(1).png
+assets/images/volt.webp <-- VOLT_Energy_Bold_Commercial(2).png
+assets/images/voxa.webp <-- VOXA Studio Modern Confidence(1).png
+assets/images/vortex.webp <-- Vortex Motors_ Sunset Performance.png

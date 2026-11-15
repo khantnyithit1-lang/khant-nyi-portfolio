@@ -1,0 +1,17 @@
+/* V1.2 portrait framing update - intentionally separate from core styling. */
+@media (min-width: 801px) {
+  .hero .hero-layout { grid-template-columns: minmax(0,1.18fr) minmax(0,.82fr); gap: clamp(24px,4vw,70px); }
+  .hero .portrait-frame { max-width: 355px; }
+}
+.hero .portrait-visual { aspect-ratio: .80; border-radius: 128px 30px 30px 30px; }
+.hero .portrait-frame::before { border-radius: 128px 30px 30px 30px; }
+.hero .portrait-visual img { object-fit:cover; object-position: center 44%; }
+.hero .portrait-tag { left: -18px; bottom: 25px; }
+.about-portrait { aspect-ratio:.80; max-width:355px; border-radius:26px 126px 26px 26px; }
+.about-portrait img { object-position:center 45%; }
+@media (max-width:800px) { .hero .portrait-frame { max-width:335px; } }
+@media (max-width:560px) {
+  .hero .portrait-frame { max-width:min(300px,82vw); }
+  .hero .portrait-tag { left: -5px; bottom: 15px; }
+  .hero .orbit { width:36px;height:36px;font-size:18px;right:0; }
+}
